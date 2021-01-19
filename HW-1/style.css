@@ -13,10 +13,7 @@ body {
 
 /* Description Rules */
 /* Parallax-Like Effect */
-.description-container {
-    min-height: 50vh;
-    font-size: 1em;
-}
+
 
 .description {
     margin: 25vh auto;
@@ -24,6 +21,7 @@ body {
     text-align: center;
     width: 75%;
     min-width: 300px;
+    background-color: rgba(415, 210, 210, 0.8);
 
 }
 
