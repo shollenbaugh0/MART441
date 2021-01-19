@@ -61,7 +61,7 @@ font-weight: 400;
     font-family: 'Arial', sans-serif;
     font-style: italic;
     font-weight: 300;
-    color: #fff;
+    color: #000;
     margin-top: 2em;
     font-size: 1.5em;
     display: flex;
@@ -70,7 +70,7 @@ font-weight: 400;
 
 .hero .nav a {
     flex-grow: 1;
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
