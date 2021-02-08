@@ -53,7 +53,7 @@ function storyFunction(choice) {
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
     } else if (choice == 1 && answer1 == "Yes restart") {
-        document.getElementById("story").innerHTML = "Sappho decides it's time to just watch from a distance for safety." + "<br>Restart?";
+        document.getElementById("story").innerHTML = "Sappho decides it's time to tell them." + "<br>Restart?";
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
     } else if (choice == 2 && answer2 == "No quit") {
