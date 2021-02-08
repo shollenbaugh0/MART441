@@ -28,35 +28,35 @@ function storyFunction(choice) {
         document.getElementById("choice2").innerHTML = "Get in closer";
     }
     // need to do these
-    else if (choice == 1 && answer1 == "Evaluate their emotions") {
+    else if (choice == 1 && answer1 == "Tell them") {
         document.getElementById("story").innerHTML = "Sappho decides that evaluation is the best option." + "<br>Restart?";
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
-    } else if (choice == 2 && answer2 == "Stay clear") {
+    } else if (choice == 2 && answer2 == "Get a drink") {
         document.getElementById("story").innerHTML = "Sappho decides staying away is the best option" + "<br>Restart?";
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
-    } else if (choice == 1 && answer1 == "Leave") {
+    } else if (choice == 1 && answer1 == "Yes it will work") {
         document.getElementById("story").innerHTML = "Sappho decides that swimming sounds most fun" + "<br>Restart?";
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
-    } else if (choice == 2 && answer2 == "Get a drink") {
+    } else if (choice == 2 && answer2 == "No it will not work") {
         document.getElementById("story").innerHTML = "Sappho decides it's time to drink" + "<br>Restart?";
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
-    } else if (choice == 1 && answer1 == "Yes it will work") {
+    } else if (choice == 1 && answer1 == "Watch from afar") {
         document.getElementById("story").innerHTML = "Sappho thinks, yeah this will work out." + "<br>Restart?";
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
-    } else if (choice == 2 && answer2 == "No it will not work") {
+    } else if (choice == 2 && answer2 == "Get in closer") {
         document.getElementById("story").innerHTML = "Sappho thinks, I don't think this will work out." + "<br>Restart?";
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
-    } else if (choice == 1 && answer1 == "Watch from afar") {
+    } else if (choice == 1 && answer1 == "Yes restart") {
         document.getElementById("story").innerHTML = "Sappho decides it's time to just watch from a distance for safety." + "<br>Restart?";
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
-    } else if (choice == 2 && answer2 == "Get in closer") {
+    } else if (choice == 2 && answer2 == "No quit") {
         document.getElementById("story").innerHTML = "Sappho decides to get just a little closer, but not engage." + "<br>Restart?";
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
