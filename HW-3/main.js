@@ -10,19 +10,19 @@ function storyFunction(choice) {
         document.getElementById("story").innerHTML = "Sappho begins to leave but something encourages her to be brave.";
         document.getElementById("choice1").innerHTML = "Begin a conversation";
         document.getElementById("choice2").innerHTML = "Watch quietly";
-    } else if (choice == 1 && answer1 == "Begin conversation") {
+    } else if (choice == 1 && answer1 == "Talk to family") {
         document.getElementById("story").innerHTML = "Sappho engages in a conversation with her family. What should she do next?";
         document.getElementById("choice1").innerHTML = "Listen quietly";
         document.getElementById("choice2").innerHTML = "Attempt to make her announcement";
-    } else if (choice == 2 && answer2 == "Listen quietly") {
+    } else if (choice == 2 && answer2 == "Go to room") {
         document.getElementById("story").innerHTML = "Sappho is still in the kitchen with her family. What should she do next?";
         document.getElementById("choice1").innerHTML = "Tell them";
         document.getElementById("choice2").innerHTML = "Get a drink";
-    } else if (choice == 1 && answer1 == "Go ahead and be brave") {
+    } else if (choice == 1 && answer1 == "Listen quietly") {
         document.getElementById("story").innerHTML = "Sappho decides to tell them even if she's unsure of how they will react.  Will it work out?'";
         document.getElementById("choice1").innerHTML = "Yes it will work";
         document.getElementById("choice2").innerHTML = "No it will not work";
-    } else if (choice == 2 && answer2 == "Scan the situation") {
+    } else if (choice == 2 && answer2 == "Attempt to make her announcement") {
         document.getElementById("story").innerHTML = "Sappho decides to just look around for the moment. What should Sappho do now?";
         document.getElementById("choice1").innerHTML = "Watch from afar";
         document.getElementById("choice2").innerHTML = "Get in closer";
@@ -37,7 +37,7 @@ function storyFunction(choice) {
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
     } else if (choice == 1 && answer1 == "Leave") {
-        document.getElementById("story").innerHTML = "Pugster decides that swimming sounds most fun" + "<br>Restart?";
+        document.getElementById("story").innerHTML = "Sappho decides that swimming sounds most fun" + "<br>Restart?";
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
     } else if (choice == 2 && answer2 == "Get a drink") {
@@ -45,7 +45,7 @@ function storyFunction(choice) {
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
     } else if (choice == 1 && answer1 == "Yes it will work") {
-        document.getElementById("story").innerHTML = "Pugster thinks, yeah this will work out." + "<br>Restart?";
+        document.getElementById("story").innerHTML = "Sappho thinks, yeah this will work out." + "<br>Restart?";
         document.getElementById("choice1").innerHTML = "Yes restart";
         document.getElementById("choice2").innerHTML = "No quit";
     } else if (choice == 2 && answer2 == "No it will not work") {
