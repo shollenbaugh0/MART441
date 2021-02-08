@@ -1,0 +1,74 @@
+<html>
+    <style>
+        body{
+            background-color: yellow;
+        }
+    </style>
+    <script>
+        function getChoice1()
+        {
+            var myChoice = document.getElementById("choice").value;
+            var myQuestion = document.getElementById("question");
+            if(myChoice === "Small")
+            {
+                document.getElementById("choice").style.display="none";
+                document.getElementById("btnSubmit").style.display="none";
+
+                document.getElementById("choice2").style.display="block";
+                document.getElementById("btnSubmit2").style.display="block";
+
+
+                myQuestion.innerHTML = "Oh you chose small. Would you rather fight one bear or 50 tiny horses?";
+            }
+            else if(myChoice === "Tall")
+            {
+                myQuestion.innerHTML = "You chose tall.  Would you rather be a werewolf or a vampire?";
+
+            }
+            else
+            {
+                myQuestion.innerHTML = "Invalid answer";
+            }
+
+        }
+        function getChoice2()
+        {
+            var fight = document.getElementById("choice2").value;
+            var myQuestion = document.getElementById("question");
+            if(fight === "bear")
+            {
+                document.getElementById("mainImage").src = "bear.png"
+                myQuestion.innerHTML = "I could fight a bear!";
+            }
+            else if(fight === "horses")
+            {
+                myQuestion.innerHTML = "I'll just kick the horses!";
+            }
+        }
+    </script>
+    <body>
+
+        <h1>Choices</h1>
+        <br>
+        <img src="gay-amongus.png" id="mainImage">
+    <div id="question">
+    <br>
+        Sappho was hanging out with friends, when they decided to play Would You Rather, a game based upon making a choice
+        out of two different slightly weird options.
+        <br>
+        Sappho was asked if she would rather be as tall as a giant or as small as a mouse.
+    </div>
+
+        <br>
+        <input type="text" size="30" id="choice" value="Please enter Tall or Small">
+        <button id="btnSubmit" onclick="getChoice1();">Click to continue</button>
+
+        <input type="text" size="30" id="choice2" value="Enter choice between bear or horses" style="display:none">
+        <button id="btnSubmit2" onclick="getChoice2();"  style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice3" value="Enter choice between werewolf or vampire"  style="display:none">
+        <button id="btnSubmit3" onclick="getChoice3();" style="display:none">Click to continue</button>
+
+    </body>
+
+</html>
