@@ -1,0 +1,6 @@
+<volkswagen>
+	<manufacturer>Volkswagen Beetle</manufacturer>
+	<model>2.5L PZEV</model>
+	<year>2012</year>
+	<price>$8923</price>
+</volkswagen>

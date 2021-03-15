@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Volkswagen",
+    "model" : "Beetle",
+    "owner" : {
+        "firstName" : "Maxine",
+        "lastName" : "Baker"
+    },
+    "sizes" : [
+        "small",
+        "medium",
+        "large",
+        "x-large"
+    ]
+}
