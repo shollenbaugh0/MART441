@@ -25,8 +25,8 @@ function setup()
     ctx = canvas.getContext("2d");
 
     // create two objects
-    square1 = new Square(100,100,50,50,"#0000FF");
-    square2 = new Square(400,400,100,100,"#00FF00");
+    square1 = new Square(100,100,50,50,"#00a5cf");
+    square2 = new Square(400,400,100,100,"#99d6d3");
     $.getJSON("data/information.json", function(data) {
         for(var i = 0; i < data.squares.length; i++)
         {
