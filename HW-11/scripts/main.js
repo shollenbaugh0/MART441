@@ -11,10 +11,5 @@ $(document).ready(function(){
 
 function updateAudio()
 {
-    $("#song").attr("src", "Schubert.mp3");
-}
-
-function updateVideo()
-{
-    $("#film").attr("src", "Cat.mp4");
+    $("#song").attr("src", "media/Hot Rod.mp3");
 }
