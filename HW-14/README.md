@@ -1,0 +1,1 @@
+Node.js is incredibly related to everything we've been working on this semester. It uses features like callbacks and addons and modules like we've been learning how to incorporate into code all semester. It uses outside sourcing to input data at a fast rate.
