@@ -6,23 +6,21 @@ var x2 = 80;
 var y2 = 80;
 var square1;
 var square2;
-var square3;
 
 
 createSquares();
 
 drawSquare();
 
-setInterval(movePurpleSquare, 2000);
+setInterval(moveYellowSquare, 2000);
 
 
 function createSquares() {
     square1 = new Square(x, y, 10, 50, "turquoise");
     square2 = new Square(x2, y2, 40, 40, "yellow");
-    square3 = new Square(x3, y3, 20, 20, blue);
 }
 
-function movePurpleSquare() {
+function moveYellowSquare() {
 
     square2.setX(Math.floor(Math.random() * canvas.width));
     square2.setY(Math.floor(Math.random() * canvas.height));
@@ -35,9 +33,6 @@ function drawSquare() {
     ctx.fillRect(square1.theX, square1.theY, square1.theWidth, square1.theHeight);
     ctx.fillStyle = square2.theColor;
     ctx.fillRect(square2.theX, square2.theY, square2.theWidth, square2.theHeight);
-    ctx.fillStyle = square3.theColor;
-    ctx.fillRect(square3.theX, square3.theY, square3.theWidth, square3.theHeight);
-
 }
 
 $(document).ready(function () {
